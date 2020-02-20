@@ -14,7 +14,8 @@ zuul:
       path: /flash-card/*
       strip-prefix: true
       serviceId: flash-card-service
-    user-service:
-    path: /users/*
-    strip-prefix: true
-    serviceId: user-service
+    flash-card-service:
+      path: /user/*
+      strip-prefix: true
+      serviceId: user-service
+
